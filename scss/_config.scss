@@ -1,0 +1,19 @@
+// COLORS 
+$bgc: linear-gradient(237deg, #2C2D65 0.35%, #201F22 100%);
+$bgcard: linear-gradient(180deg, #4D4F95 0%, #2B2D66 100%);
+$shadow: 0px 24px 48px 0px rgba(0, 1, 44, 0.16);
+$btn-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+$red: #E6606C;
+$orange: #E8AB36;
+$icons: #6357F6;
+$white: #EFEFEF;
+
+// HEADINGS
+.logo {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    span {
+        color: $red;
+    }
+}

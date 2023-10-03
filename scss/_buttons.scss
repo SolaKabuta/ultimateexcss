@@ -1,0 +1,31 @@
+
+.red-btn {
+    color: #FFF;
+    background: $red;
+    padding: 13px 30px 13px 30px;
+    border-radius: 75px;
+    font-family: $font-stack;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.63px;
+    text-transform: uppercase;
+    box-shadow: $btn-shadow;
+    &:hover {
+        transform: scale(.98);
+    }
+}
+
+
+.white-btn {
+    letter-spacing: normal;
+    color: #000000;
+    background: $white;
+    padding: 13px 30px 13px 30px;
+    border-radius: 75px;
+    font-family: $font-stack;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.63px;
+    text-transform: uppercase;
+    box-shadow: $btn-shadow;
+}
